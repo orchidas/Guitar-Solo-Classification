@@ -1,7 +1,7 @@
 <h1>Guitarist classification from symbolic guitar tabs</h1>
 
 <p>
-This repository contains a dataset of 80 rock guitar solos by Hendrix, Knopfler, Clapton and Gilmour downloaded from UltimateGuitar, cleaned and converted to MusicXML. MusicXML is parsed using a JS library - tuples containing note duration, transposed fret and string information are ultimately stored in JSON format. Markov chains are trained on this data in a leave-one-out fashion and a maximum likelihood approach is used to identify the guitarist of each song. Other interesting visualizations are done in <b><R</b>, such as pitch class and note duration histograms and Markov Chains as weighted graphs.
+This repository contains a dataset of 80 rock guitar solos by Hendrix, Knopfler, Clapton and Gilmour downloaded from UltimateGuitar, cleaned and converted to MusicXML. MusicXML is parsed using a JS library - tuples containing note duration, transposed fret and string information are ultimately stored in JSON format. Markov chains are trained on this data in a leave-one-out fashion and a maximum likelihood approach is used to identify the guitarist of each song. Other interesting visualizations are done in <b>R</b>, such as pitch class and note duration histograms and Markov Chains as weighted graphs.
 </p>
 <p>Due to the lack of a reliable dataset of guitar tabs, I encourage people to do projects with this dataset, and if possible contribute more tabs by more artists! If used in a project, please cite the following paper :
 
